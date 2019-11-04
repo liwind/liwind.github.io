@@ -163,7 +163,11 @@
     <url>/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>1 将 config.yml 文件中的 post_asset_folder 选项设为 true 来打开</p>
 <p>Hexo将会在你每一次通过<code>hexo new [layout] &lt;title&gt;</code>命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p>
-<p>2 图片<br>博客图标<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class=""></p>
+<a id="more"></a>
+
+<p>2 图片<br>博客图标 <code><img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class=""></code> <br></p>
+<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class="">
+
 ]]></content>
       <categories>
         <category>默认分类</category>
