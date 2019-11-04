@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown学习</title>
+    <url>/2019/11/04/Markdown%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Markdown是一种纯文本格式的标记语言，通过简单的标记语法，他可以使普通文本内容具有一定的格式。特点是易读，易写，易更改。Markdown也可以理解为将以 MARKDOWN语法编写的语言转换成HTML内容的工具。</p>
+<p>Markdown支持的HTML元素，不在Markdown涵盖范围之内的标签，都可以直接在文档里面用HTML撰写。</p>
+<a id="more"></a>
+
+<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>语法：<code># 标题文字</code><br>几个#号就是几级标题，支持六级标题（Markdown 段落没有特殊的格式，直接编写文字就好）<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 这是一级标题</span></span><br><span class="line"><span class="section">## 这是二级标题</span></span><br><span class="line"><span class="section">### 这是三级标题</span></span><br><span class="line"><span class="section">#### 这是四级标题</span></span><br><span class="line"><span class="section">##### 这是五级标题</span></span><br><span class="line"><span class="section">###### 这是六级标题</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：<br></p>
+
+
+<h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h2><p>要加粗的文字左右分别用两个**包起来<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">**这是加粗的文字**</span></span><br></pre></td></tr></table></figure>
+<p>效果：<strong>这是加粗的文字</strong></p>
+<h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><p>要倾斜的文字左右分别用一个*包起来<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*这是倾斜的文字*</span></span><br></pre></td></tr></table></figure>
+<p>效果：<em>这是倾斜的文字</em></p>
+<h2 id="斜体加粗"><a href="#斜体加粗" class="headerlink" title="斜体加粗"></a>斜体加粗</h2><p>要倾斜加粗的文字左右分别用三个*包起来<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="strong">***这是倾斜加粗的文字**</span>*</span><br></pre></td></tr></table></figure>
+<p>效果：<strong><em>这是倾斜加粗的文字</em></strong></p>
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>要加删除线的文字左右分别用两个~号包起来<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+<p>效果：<del>这是加删除线的文字</del></p>
+<h1 id="特殊字符"><a href="#特殊字符" class="headerlink" title="特殊字符"></a>特殊字符</h1><h2 id="空格"><a href="#空格" class="headerlink" title="空格"></a>空格</h2><p>多个空格子表示一个空格。<br><br>使用标签：普通空格<code>&amp;nbsp;</code>，半角空格<code>&amp;ensp;</code>，全角空格<code>&amp;emsp;</code><br><br>示例：<code>句子1 句子2  句子3&amp;nbsp;&amp;nbsp;&amp;nbsp;句子4</code><br><br>效果：句子1 句子2  句子3&nbsp;&nbsp;&nbsp;句子4</p>
+<h2 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h2><p>在上一段后至少空两格在回车来实现回车，或使用HTML标签<code>&lt;br&gt;</code>代表回车换行<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">第一段<span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line">第二段  </span><br><span class="line">第三段</span><br></pre></td></tr></table></figure>
+
+<p>效果：<br><br>第一段<br><br>第二段<br>第三段</p>
+<h2 id="空行"><a href="#空行" class="headerlink" title="空行"></a>空行</h2><p>空一行使用两个<code>&lt;br&gt;</code>标签（回车）实现，直接空一行的话只是一个大的行间距并没有实际空一行<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">第一行</span><br><span class="line"></span><br><span class="line">第二行<span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span></span><br><span class="line">第三行</span><br></pre></td></tr></table></figure>
+
+<p>效果：<br><br>第一行</p>
+<p>第二行<br><br><br>第三行</p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>三个或三个以上的-、*、_都可以<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line"><span class="emphasis">***</span></span><br><span class="line"><span class="emphasis">___</span></span><br></pre></td></tr></table></figure>
+
+<p>效果：<br></p>
+<hr>
+<hr>
+<hr>
+<h1 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h1><p>在引用的文字前加&gt;号即可。引用也可以嵌套，如两个&gt;&gt;、三个…<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 这是引用的内容1</span></span><br><span class="line">&gt;&gt; 这是引用的内容2</span><br><span class="line">&gt;&gt;&gt; 这是引用的内容3</span><br></pre></td></tr></table></figure>
+
+<p>效果：<br></p>
+<blockquote>
+<p>这是引用的内容1</p>
+<blockquote>
+<p>这是引用的内容2</p>
+<blockquote>
+<p>这是引用的内容3</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><h2 id="单行代码段"><a href="#单行代码段" class="headerlink" title="单行代码段"></a>单行代码段</h2><p>行内代码段用一个反引号包起来<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">后面是代码 <span class="code">`short code`</span></span><br></pre></td></tr></table></figure>
+<p>效果：后面是代码 <code>short code</code></p>
+<h2 id="多行代码块"><a href="#多行代码块" class="headerlink" title="多行代码块"></a>多行代码块</h2><p>空一行后继续使用一个Tab缩进或4个空格后面的代码为代码块。<br><br>或将代码块用三个反引号包起来，且两边的反引号单独占一行，开头反引号后面可以加上代码类型(c,c++,java,python等)以提供相应高亮效果。<br><br>示例:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">```c++</span><br><span class="line">func main(int argc, char** argv[])&#123;</span><br><span class="line">print(&quot;hello world&quot;);</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">func <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>** argv[])</span></span>&#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"hello world"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">超链接名</span>](<span class="link">超链接地址 "超链接title"</span>)</span><br><span class="line">title可加可不加,title表示鼠标停在上面时显示的标题</span><br></pre></td></tr></table></figure>
+
+<p>示例：<code>[百度](http://www.baidu.com) [liwind](http://liwind.work &quot;liwind&#39;s blog&quot;)</code><br><br>效果：<a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a> <a href="http://liwind.work" title="liwind&#39;s blog">liwind</a></p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">图片名称\</span>](<span class="link">超链接地址 "图片title"</span>)`</span><br><span class="line">title可加可不加,title表示鼠标停在上面时显示的标题</span><br></pre></td></tr></table></figure>
+
+<p>示例:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![百度](https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=863d437f938fa0ec6bca6c5f47fe328b/2cf5e0fe9925bc31b88d80d45cdf8db1ca1370ae.jpg &quot;百度logo&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>效果：<br><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=863d437f938fa0ec6bca6c5f47fe328b/2cf5e0fe9925bc31b88d80d45cdf8db1ca1370ae.jpg" alt="百度" title="百度logo"></p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>列表内容前加-、+或*中的一种（再加空格）<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>第一项</span><br><span class="line"><span class="bullet">+ </span>第二项</span><br><span class="line"><span class="bullet">* </span>第三项</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<ul>
+<li>第一项</li>
+</ul>
+<ul>
+<li>第二项</li>
+</ul>
+<ul>
+<li>第三项</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>使用数字后加点表示有序列表（再加空格）<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1. </span>第一项</span><br><span class="line"><span class="bullet">2. </span>第二项</span><br><span class="line"><span class="bullet">3. </span>第三项</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h2 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h2><p>子列表项前添加至少3个空格<br><br>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>1</span><br><span class="line"><span class="bullet">   - </span>1.1</span><br><span class="line"><span class="bullet">- </span>2</span><br><span class="line"><span class="bullet">   - </span>2.1</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<ul>
+<li>1<ul>
+<li>1.1</li>
+</ul>
+</li>
+<li>2<ul>
+<li>2.1</li>
+</ul>
+</li>
+</ul>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><p>语法：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|表头|表头|表头|</span><br><span class="line">|---|:--:|---:|</span><br><span class="line">|内容|内容|内容|</span><br><span class="line">|内容|内容|内容|</span><br><span class="line"></span><br><span class="line">第二行--|分割表头和内容。- 有一个就行，为了对齐，多加了几个。</span><br><span class="line">文字默认居左，两边加:表示文字居中，右边加:表示文字居右。</span><br></pre></td></tr></table></figure>
+
+<p>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|用户姓名|独特技能|辈分排行|</span><br><span class="line">|---|:-:|--:|</span><br><span class="line">|刘备|哭|大哥|</span><br><span class="line">|关羽|打|二哥|</span><br><span class="line">|张飞|骂|三弟|</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<table>
+<thead>
+<tr>
+<th>用户姓名</th>
+<th align="center">独特技能</th>
+<th align="right">辈分排行</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>刘备</td>
+<td align="center">哭</td>
+<td align="right">大哥</td>
+</tr>
+<tr>
+<td>关羽</td>
+<td align="center">打</td>
+<td align="right">二哥</td>
+</tr>
+<tr>
+<td>张飞</td>
+<td align="center">骂</td>
+<td align="right">三弟</td>
+</tr>
+</tbody></table>
+<h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><p>语法：Markdown支持LaTeX公式语法</p>
+<h2 id="行内公式"><a href="#行内公式" class="headerlink" title="行内公式"></a>行内公式</h2><p><code>$公式内容$</code><br><br>示例：等差数列求和：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$\sum_&#123;i=1&#125;^n a_i = \frac&#123;(a_0+a_n) \times n&#125;&#123;2&#125;$</span><br></pre></td></tr></table></figure>
+<p>效果：等差数列求和：$\sum_{i=1}^n a_i = \frac{(a_0+a_n) \times n}{2}$</p>
+<h2 id="独行公式"><a href="#独行公式" class="headerlink" title="独行公式"></a>独行公式</h2><p><code>$$公式内容$$</code><br><br>示例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$$\sum_&#123;i=1&#125;^n a_i = \frac&#123;(a_0+a_n) \times n&#125;&#123;2&#125;$$</span><br></pre></td></tr></table></figure>
+
+<p>效果：<br>$$\sum_{i=1}^n a_i = \frac{(a_0+a_n) \times n}{2}$$</p>
+]]></content>
+      <categories>
+        <category>工具学习</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的测试博客</title>
+    <url>/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>1 将 config.yml 文件中的 post_asset_folder 选项设为 true 来打开</p>
+<p>Hexo将会在你每一次通过<code>hexo new [layout] &lt;title&gt;</code>命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p>
+<p>2 图片<br>博客图标<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class=""></p>
+]]></content>
+      <categories>
+        <category>默认分类</category>
+      </categories>
+      <tags>
+        <tag>默认标签</tag>
+        <tag>技术学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/11/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
