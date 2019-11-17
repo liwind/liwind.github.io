@@ -165,7 +165,8 @@
 <p>Hexo将会在你每一次通过<code>hexo new [layout] &lt;title&gt;</code>命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p>
 <a id="more"></a>
 
-<p>2 图片<br>博客图标 <code><img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class=""></code> <br></p>
+<p>2 图片<br>hexo 同名文件夹图片引用示例 </p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img blog.svg %&#125;</span><br></pre></td></tr></table></figure>
 <img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class="">
 
 ]]></content>
