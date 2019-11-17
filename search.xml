@@ -166,8 +166,8 @@
 <a id="more"></a>
 
 <p>2 图片<br>hexo 同名文件夹图片引用示例 </p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img blog.svg %&#125;</span><br></pre></td></tr></table></figure>
-<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.svg" class="">
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img blog.png %&#125;</span><br></pre></td></tr></table></figure>
+<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.png" class="">
 
 ]]></content>
       <categories>
