@@ -3,7 +3,9 @@
   <entry>
     <title>Jupyter小技巧</title>
     <url>/2019/12/12/Jupyter%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<h2 id="1-numpy数组显示方式"><a href="#1-numpy数组显示方式" class="headerlink" title="1 numpy数组显示方式"></a>1 numpy数组显示方式</h2><p>numpy数组显示时不用科学计数法显示，而是显示全部数字。<br><br>只需要导入numpy后添加如下设置：</p>
+    <content><![CDATA[<a id="more"></a>
+
+<h2 id="1-numpy数组显示方式"><a href="#1-numpy数组显示方式" class="headerlink" title="1 numpy数组显示方式"></a>1 numpy数组显示方式</h2><p>numpy数组显示时不用科学计数法显示，而是显示全部数字。<br><br>只需要导入numpy后添加如下设置：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">np.set_printoptions(suppress=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
 
 <h2 id="2-matplotlib在jupyter中内嵌显示"><a href="#2-matplotlib在jupyter中内嵌显示" class="headerlink" title="2 matplotlib在jupyter中内嵌显示"></a>2 matplotlib在jupyter中内嵌显示</h2><p>只需要导入matplotlib后添加如下魔术命令：</p>
@@ -185,6 +187,8 @@
 
 <h2 id="3-视频"><a href="#3-视频" class="headerlink" title="3 视频"></a>3 视频</h2><p>外链视频使用示例：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% video https://www.bilibili.com/video/av30264927/ %&#125;</span><br></pre></td></tr></table></figure>
+<p>但是目前许多网站使用流媒体服务，并没用给出视频地址。但是这些网站提供了分享外链-嵌入网页的ifame框架，如bilibili外链是：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"//player.bilibili.com/player.html?aid=30264927&amp;cid=52789952&amp;page=1"</span> <span class="attr">scrolling</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">framespacing</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>=<span class="string">"true"</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>【梦想四巨头】你曾是少年<br></p>
 <iframe src="//player.bilibili.com/player.html?aid=30264927&cid=52789952&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       <categories>
