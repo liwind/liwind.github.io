@@ -186,7 +186,7 @@
 <h2 id="3-视频"><a href="#3-视频" class="headerlink" title="3 视频"></a>3 视频</h2><p>外链视频使用示例：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% video https://www.bilibili.com/video/av30264927/ %&#125;</span><br></pre></td></tr></table></figure>
 <p>【梦想四巨头】你曾是少年<br></p>
-<video src="https://www.bilibili.com/video/av30264927/" preload="metadata" controls playsinline poster="">Sorry, your browser does not support the video tag.</video>]]></content>
+<iframe src="//player.bilibili.com/player.html?aid=30264927&cid=52789952&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       <categories>
         <category>默认分类</category>
       </categories>
