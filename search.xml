@@ -3,12 +3,32 @@
   <entry>
     <title>Hexo-Next主题美化</title>
     <url>/2020/08/31/Hexo-Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>successfuly test</p>
+]]></content>
       <categories>
         <category>默认分类</category>
       </categories>
       <tags>
         <tag>默认标签</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jupyter小技巧</title>
+    <url>/2019/12/12/Jupyter%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<a id="more"></a>
+
+<h2 id="1-numpy数组显示方式"><a href="#1-numpy数组显示方式" class="headerlink" title="1 numpy数组显示方式"></a>1 numpy数组显示方式</h2><p>numpy数组显示时不用科学计数法显示，而是显示全部数字。<br><br>只需要导入numpy后添加如下设置：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">np.set_printoptions(suppress=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-matplotlib在jupyter中内嵌显示"><a href="#2-matplotlib在jupyter中内嵌显示" class="headerlink" title="2 matplotlib在jupyter中内嵌显示"></a>2 matplotlib在jupyter中内嵌显示</h2><p>只需要导入matplotlib后添加如下魔术命令：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">%matplotlib inline</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Jupyter</tag>
       </tags>
   </entry>
   <entry>
@@ -188,25 +208,6 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Jupyter小技巧</title>
-    <url>/2019/12/12/Jupyter%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<a id="more"></a>
-
-<h2 id="1-numpy数组显示方式"><a href="#1-numpy数组显示方式" class="headerlink" title="1 numpy数组显示方式"></a>1 numpy数组显示方式</h2><p>numpy数组显示时不用科学计数法显示，而是显示全部数字。<br><br>只需要导入numpy后添加如下设置：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">np.set_printoptions(suppress=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-matplotlib在jupyter中内嵌显示"><a href="#2-matplotlib在jupyter中内嵌显示" class="headerlink" title="2 matplotlib在jupyter中内嵌显示"></a>2 matplotlib在jupyter中内嵌显示</h2><p>只需要导入matplotlib后添加如下魔术命令：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">%matplotlib inline</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Jupyter</tag>
-      </tags>
   </entry>
   <entry>
     <title>我的测试博客</title>
