@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo-Next主题美化</title>
+    <url>/2020/08/31/Hexo-Next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>默认分类</category>
+      </categories>
+      <tags>
+        <tag>默认标签</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Jupyter小技巧</title>
     <url>/2019/12/12/Jupyter%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<a id="more"></a>
@@ -17,53 +28,6 @@
       </categories>
       <tags>
         <tag>Jupyter</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/11/03/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
-
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的测试博客</title>
-    <url>/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="1-资源文件夹"><a href="#1-资源文件夹" class="headerlink" title="1 资源文件夹"></a>1 资源文件夹</h2><p>将 config.yml 文件中的 post_asset_folder 选项设为 true 来打开<br><br>Hexo将会在你每一次通过<code>hexo new [layout] &lt;title&gt;</code>命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p>
-<a id="more"></a>
-
-<h2 id="2-图片"><a href="#2-图片" class="headerlink" title="2 图片"></a>2 图片</h2><p>hexo 同名文件夹图片引用示例：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% asset<span class="emphasis">_img blog.png %&#125;</span></span><br></pre></td></tr></table></figure>
-
-<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.png" class="">
-
-<h2 id="3-视频"><a href="#3-视频" class="headerlink" title="3 视频"></a>3 视频</h2><p>外链视频使用示例：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% video https://www.bilibili.com/video/av30264927/ %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>但是目前许多网站使用流媒体服务，并没用给出视频地址。但是这些网站提供了分享外链-嵌入网页的ifame框架，如bilibili外链是：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=30264927&amp;cid=52789952&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>【梦想四巨头】你曾是少年<br></p>
-<iframe src="//player.bilibili.com/player.html?aid=30264927&cid=52789952&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      <categories>
-        <category>默认分类</category>
-      </categories>
-      <tags>
-        <tag>默认标签</tag>
-        <tag>技术学习</tag>
       </tags>
   </entry>
   <entry>
@@ -222,6 +186,53 @@
       </categories>
       <tags>
         <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2019/11/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
+
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的测试博客</title>
+    <url>/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="1-资源文件夹"><a href="#1-资源文件夹" class="headerlink" title="1 资源文件夹"></a>1 资源文件夹</h2><p>将 config.yml 文件中的 post_asset_folder 选项设为 true 来打开<br><br>Hexo将会在你每一次通过<code>hexo new [layout] &lt;title&gt;</code>命令创建新文章时自动创建一个文件夹。这个资源文件夹将会有与这个文章文件一样的名字。将所有与你的文章有关的资源放在这个关联文件夹中之后，你可以通过相对路径来引用它们，这样你就得到了一个更简单而且方便得多的工作流。</p>
+<a id="more"></a>
+
+<h2 id="2-图片"><a href="#2-图片" class="headerlink" title="2 图片"></a>2 图片</h2><p>hexo 同名文件夹图片引用示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% asset<span class="emphasis">_img blog.png %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<img src="/2019/11/03/%E6%88%91%E7%9A%84%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/blog.png" class="">
+
+<h2 id="3-视频"><a href="#3-视频" class="headerlink" title="3 视频"></a>3 视频</h2><p>外链视频使用示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% video https://www.bilibili.com/video/av30264927/ %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>但是目前许多网站使用流媒体服务，并没用给出视频地址。但是这些网站提供了分享外链-嵌入网页的ifame框架，如bilibili外链是：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;//player.bilibili.com/player.html?aid=30264927&amp;cid=52789952&amp;page=1&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>【梦想四巨头】你曾是少年<br></p>
+<iframe src="//player.bilibili.com/player.html?aid=30264927&cid=52789952&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <categories>
+        <category>默认分类</category>
+      </categories>
+      <tags>
+        <tag>默认标签</tag>
+        <tag>技术学习</tag>
       </tags>
   </entry>
 </search>
