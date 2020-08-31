@@ -14,25 +14,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Jupyter小技巧</title>
-    <url>/2019/12/12/Jupyter%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<a id="more"></a>
-
-<h2 id="1-numpy数组显示方式"><a href="#1-numpy数组显示方式" class="headerlink" title="1 numpy数组显示方式"></a>1 numpy数组显示方式</h2><p>numpy数组显示时不用科学计数法显示，而是显示全部数字。<br><br>只需要导入numpy后添加如下设置：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">np.set_printoptions(suppress=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-matplotlib在jupyter中内嵌显示"><a href="#2-matplotlib在jupyter中内嵌显示" class="headerlink" title="2 matplotlib在jupyter中内嵌显示"></a>2 matplotlib在jupyter中内嵌显示</h2><p>只需要导入matplotlib后添加如下魔术命令：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">%matplotlib inline</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Jupyter</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown学习</title>
     <url>/2019/11/04/Markdown%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="1-简介"><a href="#1-简介" class="headerlink" title="1 简介"></a>1 简介</h1><p>Markdown是一种纯文本格式的标记语言，通过简单的标记语法，他可以使普通文本内容具有一定的格式。特点是易读，易写，易更改。Markdown也可以理解为将以 MARKDOWN语法编写的语言转换成HTML内容的工具。</p>
@@ -209,6 +190,25 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Jupyter小技巧</title>
+    <url>/2019/12/12/Jupyter%E5%B0%8F%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<a id="more"></a>
+
+<h2 id="1-numpy数组显示方式"><a href="#1-numpy数组显示方式" class="headerlink" title="1 numpy数组显示方式"></a>1 numpy数组显示方式</h2><p>numpy数组显示时不用科学计数法显示，而是显示全部数字。<br><br>只需要导入numpy后添加如下设置：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">np.set_printoptions(suppress=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-matplotlib在jupyter中内嵌显示"><a href="#2-matplotlib在jupyter中内嵌显示" class="headerlink" title="2 matplotlib在jupyter中内嵌显示"></a>2 matplotlib在jupyter中内嵌显示</h2><p>只需要导入matplotlib后添加如下魔术命令：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">%matplotlib inline</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Jupyter</tag>
+      </tags>
   </entry>
   <entry>
     <title>我的测试博客</title>
